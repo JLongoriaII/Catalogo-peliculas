@@ -7,11 +7,11 @@ import MenuTop from "./components/MenuTop";
 
 // Pages
 import Home from "./pages/Home.js";
-import Error404 from "./pages/Error404.js";
+import Error404 from "./pages/error404/Error404.js";
 import Movie from "./pages/movie/Movie.js";
 import NewMovies from "./pages/NewMovies.js";
 import PopularMovies from "./pages/PopularMovies.js";
-import SearchMovies from "./pages/SearchMovies.js";
+import SearchMovies from "./pages/search/SearchMovies.js";
 
 export default function App() {
   const { Header, Content } = Layout;
